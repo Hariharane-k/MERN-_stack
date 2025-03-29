@@ -1,0 +1,199 @@
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+    
+
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    gap: 30px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin: 15px 0 10px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #666;
+}
+.navb ol li a{
+    text-decoration: none;
+    color: #0d0e0d;
+
+}
+li{
+    list-style-type: none;
+    padding: 16px 12px;
+}
+ol{
+    display: flex;
+    width: 100%;
+    background-color: aquamarine;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.navb ol li:hover{
+    background-color: bisque;
+    transition: 2ms;
+    text-decoration:none;
+   
+}
+.nav{
+    position: fixed;
+}
+#tb table th,#tb table td{
+    border: 2px solid rebeccapurple;
+    border-radius: 3px;
+    
+}
+th{
+    background-color:rgb(199, 202, 51);
+    border-collapse: separate;
+    padding: 10px;
+}
+td{
+    padding: 10px;
+    text-align: center;
+}
+.break{
+    word-break: break-all;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #d41e1e;
+  width:1em;
+}
+.lunch{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #d41e1e;
+    word-break: break-all;
+    width: 1em;
+}
+#tb{
+    margin: 1%;
+    margin-left: 17%;
+    padding: 100px;
+    align-content: center;
+}
+.Form{
+    background: white;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    text-align: center;
+    margin-left: 30%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.form-header {
+    background: black;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.form-group {
+    margin: 15px 0;
+    text-align: left;
+}
+label {
+    font-weight: bold;
+    display: block;
+    
+}
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+}
+.name-group, .phone-group {
+    display: flex;
+    gap: 10px;
+}
+
+.radio-group {
+    display: inline-flex;
+    gap: 30px;
+    margin-top: 10px;
+    align-items: right;
+}
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background: #ff4757;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.submit-btn:hover {
+    background: #74392a;
+}
+#first-name{
+    width: 150px;
+}
+
+#last-name{
+    width: 150px;
+    margin-top: 16.5%;
+}
+#area-code{
+    width:70px
+}
+#phone-number{
+    margin-top: 16%;
+}
+#company{
+    width: 350px;
+}
+#email{
+    width: 350px;
+}
+#Domain{
+    width: 350px;
+}
+img{
+    width: 20px;
+    height: 20px;
+}

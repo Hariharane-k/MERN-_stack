@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Hover Effect</title>
+    <link rel="stylesheet" href="mobile.css">
+</head>
+<body>
+    <div class="navb">
+    <ol>
+        <li><a href="#">Home</a></li>
+        <li><a href="#tb">Dashboard</a></li>
+        <li><a href="#"style ="padding-left:1100px">Contact</a></li>
+    </ol>
+    </div>
+    <div class ="main">
+        
+    <div class="card">
+        <img src="ip.jpg" alt="Card Image">
+        <h3>I Phone 13</h3>
+        <p>Limited in stocks.</p>
+    </div>
+    <div class="card">
+        <img src="no.jpg" alt="Card Image">
+        <h3>Nothing 2a</h3>
+        <p>Limited in stocks.</p>
+    </div>
+    <div class="card">
+        <img src="one.jpg" alt="Card Image">
+        <h3>One Plus nord 10r</h3>
+        <p>Limited in stocks.</p>
+    </div>
+    <div class="card">
+        <img src="moto.webp" alt="Card Image">
+        <h3>Moto Edge 50 Fusion</h3>
+        <p>Limited in stocks.</p>
+    </div>
+    <div class="card">
+        <img src="vivo.jpg" alt="Card Image">
+        <h3>Vivo Y200e</h3>
+        <p>Limited in stocks.</p>
+    </div>
+    </div>
+        <div id="tb">
+
+        <table>
+            <tr>
+                <th>Day</th>
+                <th>9:00 - 10:00</th>
+                <th>10:00 - 11:00</th>
+                <th>11:00 - 11:15</th>
+                <th>11:15 - 12:15</th>
+                <th>12:15 - 1:15</th>
+                <th>1:15 - 2:00</th> 
+                <th>2:00 - 3:00</th>
+                <th>3:00 - 4:00</th>
+            </tr>
+            <tr>
+                <td style="background-color: rgb(196, 108, 21);">Monday</td>
+                <td>RE</td>
+                <td>FSD</td>
+                
+                <td  class="break"rowspan="5" style="text-align: center;">BREAK</td>
+                
+                <td>IOT</td>
+                <td>CRYPTO</td>
+                <td  class="lunch" rowspan="5" style="text-align: center;">LUNCH</td>
+                <td>IP</td>
+                <td>EPR</td>
+            </tr>
+            <tr>
+                <td style="background-color: rgb(196, 108, 21);">Tuesday</td>
+                <td>TSA</td>
+                <td>EPR</td>
+                <td>CRYPTO</td>
+                <td>IOT</td>
+                <td>FDM</td>
+                <td>IP</td>
+            </tr>
+            <tr>
+                <td style="background-color: rgb(196, 108, 21);">Wednesday</td>
+                <td>IP</td>
+                <td>FDM</td>
+                <td>IOT</td>
+                <td>CRYPTO</td>
+                <td>EPR</td>
+                <td>IP</td>
+            </tr>
+            <tr>
+                <td style="background-color: rgb(196, 108, 21);">Thursday</td>
+                <td>TSA</td>
+                <td>FDM</td>
+                <td>CRYPTO</td>
+                <td>IOT</td>
+               <td>IP</td>
+                <td>EPR</td>
+            </tr>
+            <tr>
+                <td style="background-color: rgb(196, 108, 21);">Friday</td>
+                <td>FDM</td>
+                <td>MINIP</td>
+                <td>EPR</td>
+                <td>IP</td>
+                <td>CRYPTO</td>
+                <td>IOY</td>
+            </tr>
+        </table>
+        </div>
+        <div class="Form">
+            <div class="form-header">EVENT REGISTRATION FORM</div>
+            <form>
+                <div class="form-group name-group">
+                    <div>
+                        <label for="first-name"> <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/name.png" alt="name"/>Name </label>
+                        <input type="text" id="first-name" placeholder="First Name">
+                    </div>
+                    <div>
+                        <input type="text" id="last-name" placeholder="Last Name">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="company"><img width="50" height="50" src="https://img.icons8.com/ios/50/company--v1.png" alt="company--v1"/>Department </label>
+                    
+                    <input type="text" id="company">
+                </div>
+                <div class="form-group">
+                    <label for="dob"><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/calendar.png" alt="calendar"/>Date of Birth </label>
+                    
+                    <input type="date" id="dob" style="width: 110px;">
+                </div>
+                <div class="form-group">
+                    <label for="email"> <img width="50" height="50" src="https://img.icons8.com/pastel-glyph/50/new-post.png" alt="new-post"/> Email</label>
+                    <input type="email" id="email">
+                </div>
+                <div class="form-group phone-group">
+                    <div>
+                        <label for="area-code"><img width="50" height="50" src="https://img.icons8.com/ios-filled/50/apple-phone.png" alt="apple-phone"/> Phone </label>
+                        <input type="tel" id="area-code" placeholder="Area Code">
+                    </div>
+                    <div>
+                        <input type="tel" id="phone-number" placeholder="Phone Number">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="Domain"> <img width="50" height="50" src="https://img.icons8.com/cotton/50/domain.png" alt="domain"/>Domain</label>
+                    <select id="Domain">
+                        <option>Choose option</option>
+                        <option>AIML</option>
+                        <option>FullStack</option>
+                        <option>Cyber Security</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Are you an existing Participant?</label>
+                    <div class="radio-group">
+                        <input type="radio" name="customer" id="yes" value="Yes"> <label for="yes">Yes</label>
+                        <input type="radio" name="customer" id="no" value="No"> <label for="no">No</label>
+                    </div>
+                </div>
+                <button type="submit" class="submit-btn">REGISTER</button>
+            </form>
+        </div>
+            
+</body>
+</html>
